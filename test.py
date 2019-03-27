@@ -1,4 +1,4 @@
-# from time import ctime,sleep
+ # from time import ctime,sleep
 #
 #
 # def test(func):
@@ -114,23 +114,63 @@ lambda和作用域
 '''
 test
 '''
-j, k = 1, 2
+# j, k = 1, 2
+#
+# def proc1():
+#     j, k = 3, 4
+#     print("j == %d and k == %d" % (j, k))
+#     k = 5
+#
+#
+# def proc2():
+#     j = 6
+#     proc1()
+#     print("j == %d and k == %d" % (j, k))
+#
+# k = 7
+# proc1()
+# print("j == %d and k == %d" % (j, k))
+#
+# j = 8
+# proc2()
+# print("j == %d and k == %d" % (j, k))
 
-def proc1():
-    j, k = 3, 4
-    print("j == %d and k == %d" % (j, k))
-    k = 5
+
+class Test(object):
+
+    feature = "ugly"
+
+    def __init__(self,name):
+        self.name = name
+
+    def sell_house(self):
+        print("%s 正在抠脚" % self.name)
+
+    def __getattr__(self, item):
+        print("调用__getattr__")
+
+    def __delattr__(self, item):
+        print("调用__delattr__")
+
+    def __setattr__(self, key, value):
+        print("调用__setattr__")
+        self.__dict__[key] = [value] #把属性加进去
 
 
-def proc2():
-    j = 6
-    proc1()
-    print("j == %d and k == %d" % (j, k))
 
-k = 7
-proc1()
-print("j == %d and k == %d" % (j, k))
 
-j = 8
-proc2()
-print("j == %d and k == %d" % (j, k))
+b1 = Test("felix") #设置属性的时候就会调用__setattr__
+b1.sssssssssss  #调用不存在的属性的时候调用__getattr__
+del b1.name #删除的时候调用
+#
+# b1.sell_house()
+# fun = getattr(b1,"sell_house")
+# fun()
+# print(getattr(b1,"xxx","ssss"))
+#
+# setattr()
+# hasattr()
+# delattr()
+
+
+
