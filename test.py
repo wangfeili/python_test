@@ -1,3 +1,5 @@
+import time
+
  # from time import ctime,sleep
 #
 #
@@ -136,32 +138,32 @@ test
 # print("j == %d and k == %d" % (j, k))
 
 
-class Test(object):
-
-    feature = "ugly"
-
-    def __init__(self,name):
-        self.name = name
-
-    def sell_house(self):
-        print("%s 正在抠脚" % self.name)
-
-    def __getattr__(self, item):
-        print("调用__getattr__")
-
-    def __delattr__(self, item):
-        print("调用__delattr__")
-
-    def __setattr__(self, key, value):
-        print("调用__setattr__")
-        self.__dict__[key] = [value] #把属性加进去
-
-
-
-
-b1 = Test("felix") #设置属性的时候就会调用__setattr__
-b1.sssssssssss  #调用不存在的属性的时候调用__getattr__
-del b1.name #删除的时候调用
+# class Test(object):
+#
+#     feature = "ugly"
+#
+#     def __init__(self,name):
+#         self.name = name
+#
+#     def sell_house(self):
+#         print("%s 正在抠脚" % self.name)
+#
+#     def __getattr__(self, item):
+#         print("调用__getattr__")
+#
+#     def __delattr__(self, item):
+#         print("调用__delattr__")
+#
+#     def __setattr__(self, key, value):
+#         print("调用__setattr__")
+#         self.__dict__[key] = [value] #把属性加进去
+#
+#
+#
+#
+# b1 = Test("felix") #设置属性的时候就会调用__setattr__
+# b1.sssssssssss  #调用不存在的属性的时候调用__getattr__
+# del b1.name #删除的时候调用
 #
 # b1.sell_house()
 # fun = getattr(b1,"sell_house")
@@ -171,6 +173,41 @@ del b1.name #删除的时候调用
 # setattr()
 # hasattr()
 # delattr()
+
+# class FileHandle:
+#
+#     def __init__(self,filename,mode='r',enconding='utf-8'):
+#         self.file = open(filename,mode,encoding=enconding)    #文件操作里面有什么就提供什么
+#         self.mode = mode
+#         self.enconding = enconding
+#
+#     def __getattr__(self, item):
+#         return getattr(self.file, item)
+#
+#
+# f1 = FileHandle('a.txt','w+')
+# f1.write('11111')
+
+class FileHandle:
+
+    def __init__(self,filename,mode='r',enconding='utf-8'):
+        self.file = open(filename,mode,encoding=enconding)    #文件操作里面有什么就提供什么
+        self.mode = mode
+        self.enconding = enconding
+
+    def write(self,line): #重新改写write方法，加上时间打印
+        t = time.strftime('%Y-%m-%d %X')
+        self.file.write('%s %s'%(t,line))
+
+    def __getattr__(self, item):
+        return getattr(self.file, item)
+
+
+f1 = FileHandle('a.txt','r+')
+f1.write('11111\n')
+f1.write('内存不足')
+f1.seek(0)
+print(f1.read())
 
 
 
