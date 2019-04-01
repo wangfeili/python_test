@@ -203,11 +203,13 @@ class FileHandle:
         return getattr(self.file, item)
 
 
+
+
 f1 = FileHandle('a.txt','r+')
-f1.write('11111\n')
-f1.write('内存不足')
-f1.seek(0)
-print(f1.read())
+# f1.write('11111\n')
+# f1.write('内存不足')
+# f1.seek(0)
+# print(f1.read())
 
 
 
