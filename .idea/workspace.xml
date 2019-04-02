@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6762a1b5-f1e5-4076-9bc5-fe94bdd9fb44" name="Default Changelist" comment="test for attr">
-      <change afterPath="$PROJECT_DIR$/test_sy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testforitem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自定制格式化方法format.py" beforeDir="false" afterPath="$PROJECT_DIR$/自定制格式化方法format.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,35 +15,35 @@
     <session id="738778914">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.15" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.15" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="11" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1517" />
+          <entry key="py" value="2733" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="1517" />
+          <entry key="Python" value="2733" />
         </counts>
       </usages-collector>
     </session>
@@ -54,12 +51,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testforitem.py">
+        <entry file="file://$PROJECT_DIR$/next和iter实现迭代器协议.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="729">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding>
-                <marker date="1554128348124" expanded="true" signature="10:15" ph="..." />
+                <marker date="1554213291250" expanded="true" signature="10:15" ph="..." />
+                <marker date="1554213291250" expanded="true" signature="36:61" ph="..." />
               </folding>
             </state>
           </provider>
@@ -90,6 +88,11 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test3.py" />
         <option value="$PROJECT_DIR$/testforitem.py" />
+        <option value="$PROJECT_DIR$/改变对象的字符串显示.py" />
+        <option value="$PROJECT_DIR$/自定制格式化方法format.py" />
+        <option value="$PROJECT_DIR$/slots属性.py" />
+        <option value="$PROJECT_DIR$/析构方法.py" />
+        <option value="$PROJECT_DIR$/next和iter实现迭代器协议.py" />
       </list>
     </option>
   </component>
@@ -98,6 +101,9 @@
     <option name="y" value="127" />
     <option name="width" value="1918" />
     <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -134,8 +140,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testforitem">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.next和iter实现迭代器协议">
+    <configuration name="改变对象的字符串显示" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,7 +153,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/改变对象的字符串显示.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="析构方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,7 +174,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/析构方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_sy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="自定制格式化方法format" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,7 +195,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_sy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自定制格式化方法format.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testforitem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="next和iter实现迭代器协议" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,7 +216,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testforitem.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/next和iter实现迭代器协议.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="slots属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slots属性.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,17 +247,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.test_sy" />
-      <item itemvalue="Python.test3" />
-      <item itemvalue="Python.testforitem" />
+      <item itemvalue="Python.改变对象的字符串显示" />
+      <item itemvalue="Python.自定制格式化方法format" />
+      <item itemvalue="Python.slots属性" />
+      <item itemvalue="Python.析构方法" />
+      <item itemvalue="Python.next和iter实现迭代器协议" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testforitem" />
-        <item itemvalue="Python.test3" />
-        <item itemvalue="Python.test_sy" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.next和iter实现迭代器协议" />
+        <item itemvalue="Python.析构方法" />
+        <item itemvalue="Python.slots属性" />
+        <item itemvalue="Python.自定制格式化方法format" />
+        <item itemvalue="Python.改变对象的字符串显示" />
       </list>
     </recent_temporary>
   </component>
@@ -252,14 +281,28 @@
       <option name="project" value="LOCAL" />
       <updated>1553698382650</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test for attr">
+      <created>1554128538348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554128538348</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test for attr">
+      <created>1554129748058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554129748058</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14330874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,10 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <marker date="1554026908849" expanded="true" signature="12:13" ph="..." />
-            <marker date="1554026908849" expanded="true" signature="12:21" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -325,21 +364,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
           <caret line="212" selection-start-line="212" selection-end-line="212" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1554026157889" expanded="true" signature="2060:2067" ph="..." />
-            <marker date="1554026157889" expanded="true" signature="2116:2152" ph="..." />
-            <marker date="1554026157889" expanded="true" signature="3337:3446" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testforitem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
-            <marker date="1554128348124" expanded="true" signature="10:15" ph="..." />
+            <marker date="1554128391693" expanded="true" signature="10:15" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/改变对象的字符串显示.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="84" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
+          <folding>
+            <marker date="1554129479850" expanded="true" signature="47:54" ph="..." />
+            <marker date="1554129479850" expanded="true" signature="227:363" ph="..." />
+            <marker date="1554129479850" expanded="true" signature="441:444" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自定制格式化方法format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <marker date="1554207721555" expanded="true" signature="65:70" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slots属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <marker date="1554209675084" expanded="true" signature="21:26" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/析构方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1554210046400" expanded="true" signature="10:15" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/next和iter实现迭代器协议.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <marker date="1554213291250" expanded="true" signature="10:15" ph="..." />
+            <marker date="1554213291250" expanded="true" signature="36:61" ph="..." />
           </folding>
         </state>
       </provider>
